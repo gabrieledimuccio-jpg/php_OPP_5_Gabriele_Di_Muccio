@@ -1,7 +1,6 @@
 <?php
 abstract class Category{
 abstract public function getMyCategory();
-
 }
 
 class Attualità extends Category{
@@ -25,6 +24,5 @@ public function getMyCategory(){
     return "Storia \n";
 }
 }
-$gossip = new Gossip();
-echo $gossip -> getMyCategory();
+
 ?>
